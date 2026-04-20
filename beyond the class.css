@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.school-logo{
+  background-color:white;
+  text-align: center;
+  padding: 15px;
+ 
+}
+.school-logo h1{
+  color: #1e075e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+.school-logo P{
+  color: rgb(244, 177, 6);
+  text-align: center;
+  padding:10px
+}
+
+nav{
+ height:50px;
+ Max-width: 100%;
+ background-color: #1c025a;
+ justify-content: center;
+ margin: 5px 0 5px 0;
+
+}
+nav ul{
+  display: flex;
+  float: right;
+  margin-top: 10px;
+ 
+  
+
+}
+
+nav li{
+list-style: none;
+margin-right: 10px;
+padding-right: 10px;
+border-right: 3px solid gray;
+}
+nav li:last-child {
+  border-right: none; 
+}
+
+nav a{
+  text-decoration:none;
+  color: blanchedalmond;
+
+}
+
+
+
+.home-para{
+  background-color: #0d3e9b;
+  color: rgb(220, 185, 10);
+  font-size: 20px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 10px 0 10px 0;
+}
+
+header img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header-textoverlay{
+  position: absolute;
+  top:650px;
+  left:600px;
+  transform: translate(-50%, -50%);
+}
+header h1, P{
+  color: rgb(181, 19, 116);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  text-align: center;
+}
+
+ .btc{
+  background-color: rgb(64, 74, 170);
+}
+.btc h1{
+text-align: center;
+color: rgb(80, 6, 6);
+padding: 10px;
+}
+.btc{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+} 
+
+
+footer{
+  height:70px;
+  width: 100%;
+  background-color: #1c025a;
+  
+}
+.footer-link{
+  justify-content: center;
+  display: flex;
+ 
+}
+footer ul{
+  display: flex;
+
+}
+
+footer li{
+  list-style: none;
+  margin-left:3px;
+  padding-left: 3px;
+  border-left: 3px solid chocolate;
+
+}
+footer li:first-child{
+  border-left: none;
+}
+footer a{
+  text-decoration: none;
+  color: bisque;
+  font-size: small;
+ 
+}
+.footer-socials a {
+ color: rgb(200, 14, 126);
+ 
+} 
+
+/* Beyond the Classroom Page responsive layout */
+
+
+
+
