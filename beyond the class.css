@@ -25,7 +25,7 @@ body {
 }
 
 nav {
-  height: 70px;
+  height: auto;
   width: auto;
   background-color: #1c025a;
   padding-top: 9px;

@@ -3,12 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+.school-logo {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
+.school-logo h1 {
+  color: #1e075e;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.school-logo P {
+  color: rgb(244, 177, 6);
+  text-align: center;
+  padding: 10px;
+}
 
 nav {
-  height: 100px;
+  height: auto;
   width: auto;
   background-color: #1c025a;
-  padding-top: 45px;
+  /* padding-top: 45px; */
 }
 
 .hamburger {
