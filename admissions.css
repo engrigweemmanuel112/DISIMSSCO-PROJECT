@@ -70,14 +70,23 @@
     text-align: center;
   }
 
-  /* header h1,
-  P {
-    color: rgb(181, 19, 116);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    text-align: center;
-   
-  } */
+  .admin-header{
+  background-color: #7ab3dc;
+  padding: 10px 0 10px;
+  
+  display: flex; 
+  justify-content: space-around;
+
+  }
+
+  .admin-rate{
+     /* display: flex;  */
+  }
+
+  .header-rate-para {
+    font-size:10px;
+  }
+ 
   
   footer {
     height: 70px;
