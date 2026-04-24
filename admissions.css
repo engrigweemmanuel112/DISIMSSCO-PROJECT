@@ -15,7 +15,7 @@
   }
   .school-logo h1 {
     color: #1e075e;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
   }
   .school-logo P {
@@ -94,9 +94,22 @@
   }
  
   .admin-sec1{
-    
+    padding: 10px;
+    display: flex;
+  }
+  .admin-sec1 h1{
+    color: rgb(252, 215, 2);
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .admin-sec1 h2{
+
   }
  
+  .admin-sec1-img{
+    
+  }
 
   
   footer {
