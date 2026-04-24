@@ -103,14 +103,21 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-  .admin-sec1 h2{
-
+  .admin-sec1 p{
+   font-size: 15px;
+   margin: 15px 0 15px 0;
   }
  
-  .admin-sec1-img{
-    
+  img{
+    border-radius: 10px;
+    margin-top: 15px;
   }
-
+button{
+  background-color: #033958;
+  color: white;
+  padding:5px;
+  border-radius: 5px;
+}
   
   footer {
     height: 70px;
