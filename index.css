@@ -128,9 +128,7 @@ footer a {
 /* HOME PAGE  RESPONSIVE LAYOUT*/
 
 @media screen and (max-width: 900px) {
-  /* body{
-    overflow-x: hidden;
-  } */
+
   header img {
     height: auto;
   }
