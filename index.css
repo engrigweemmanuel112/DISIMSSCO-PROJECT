@@ -92,6 +92,7 @@ footer {
   height: 70px;
   width: 100%;
   background-color: #1c025a;
+  padding: 10px;
 }
 .footer-link {
   justify-content: center;
@@ -118,11 +119,9 @@ footer a {
 .footer-socials a {
   color: rgb(200, 14, 126);
   margin-left: 10px;
-
 }
-.footer-socials p{
+.footer-socials p {
   color: yellow;
- 
 }
 
 /* HOME PAGE  RESPONSIVE LAYOUT*/
@@ -169,12 +168,11 @@ footer a {
     border-right: none;
     border-bottom: 2px solid gray;
   }
-
-  footer ul {
-    display: flex;
-    padding: 10px;
+  footer{
+    padding:10px;
   }
-  .footer-socials {
+
+  .footer-link  {
     display: none;
   }
 }
