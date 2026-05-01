@@ -117,12 +117,17 @@ footer a {
 }
 .footer-socials a {
   color: rgb(200, 14, 126);
+  margin-left: 10px;
+
+}
+.footer-socials p{
+  color: yellow;
+ 
 }
 
 /* HOME PAGE  RESPONSIVE LAYOUT*/
 
 @media screen and (max-width: 900px) {
-
   /* body{
     overflow-x: hidden;
   } */
