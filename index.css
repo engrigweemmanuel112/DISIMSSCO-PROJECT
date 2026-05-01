@@ -85,13 +85,14 @@ P {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
   text-align: center;
+  padding: 5px;
 }
 
 footer {
   height:100%;
   width: 100%;
   background-color: #1c025a;
-  padding: 10px;
+
 }
 .footer-link {
   justify-content: center;
