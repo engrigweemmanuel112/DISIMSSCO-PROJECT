@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
+
 .school-logo {
   background-color: white;
   text-align: center;
@@ -20,22 +24,21 @@
 }
 
 nav {
-  height: auto;
+  height: 100%;
   width: auto;
   background-color: #1c025a;
-  /* padding-top: 45px; */
 }
 
 .hamburger {
   display: none;
   cursor: pointer;
   justify-content: end;
-
 }
 
 .nav-list {
   right: -100%;
   justify-content: flex-end;
+  margin: 5px 0 5px 0;
   display: flex;
   align-items: center;
 }
@@ -55,17 +58,6 @@ nav a {
   color: blanchedalmond;
 }
 
-/* header img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.header-textoverlay{
-  position: absolute;
-  top:650px;
-  left:600px;
-  transform: translate(-50%, -50%);
-} */
 header h1,
 P {
   color: rgb(181, 19, 116);
@@ -108,7 +100,7 @@ figure {
 }
 
 footer {
-  height: 70px;
+  height: 100%;
   width: 100%;
   background-color: #1c025a;
 }
@@ -136,6 +128,11 @@ footer a {
 }
 .footer-socials a {
   color: rgb(200, 14, 126);
+  margin-left: 10px;
+}
+.footer-socials p {
+  color: yellow;
+  font-size: 10px;
 }
 
 /* Academic PAGE  RESPONSIVE LAYOUT*/
@@ -147,9 +144,8 @@ footer a {
     display: none;
     position: absolute;
     right: -100%;
-    top: 10%;
-
-    background: rgba(28, 2, 90, 0.2);
+    top: 55%;
+    /* background: rgba(245, 245, 246, 0.1); */
     width: 250;
     height: auto;
     text-align: center;
@@ -174,16 +170,14 @@ footer a {
     right: 0;
   }
 
-  .nav-list li {
+  /* .nav-list li {
     border-right: none;
     border-bottom: 2px solid gray;
+  } */
+  footer p {
+    padding: 5px;
   }
-
-  footer ul {
-    display: flex;
-    padding: 10px;
-  }
-  .footer-socials {
+  .footer-link {
     display: none;
   }
 }

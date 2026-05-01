@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.school-logo {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
+.school-logo h1 {
+  color: #1e075e;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.school-logo P {
+  color: rgb(244, 177, 6);
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  height: 100%;
+  width: auto;
+  background-color: #1c025a;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  justify-content: end;
+}
+
+.nav-list {
+  right: -100%;
+  justify-content: flex-end;
+  margin: 5px 0 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 3px solid gray;
+}
+nav li:last-child {
+  border-right: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+header h1,
+P {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: #1c025a;
+  margin-top: 500px;
+}
+.footer-link {
+  justify-content: center;
+  display: flex;
+}
+footer ul {
+  display: flex;
+}
+
+footer li {
+  list-style: none;
+  margin-left: 3px;
+  padding-left: 3px;
+  border-left: 3px solid chocolate;
+}
+footer li:first-child {
+  border-left: none;
+}
+footer a {
+  text-decoration: none;
+  color: bisque;
+  font-size: small;
+}
+.footer-socials a {
+  color: rgb(200, 14, 126);
+  margin-left: 10px;
+}
+.footer-socials p {
+  color: yellow;
+  font-size: 10px;
+}
+
+/* CONTACT PAGE  RESPONSIVE LAYOUT*/
+
+@media screen and (max-width: 900px) {
+  header img {
+    height: auto;
+  }
+  .nav-list {
+    display: none;
+    position: absolute;
+    right: -100%;
+    top: 55%;
+    width: 250;
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+  }
+  .nav-list li {
+    margin-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .hamburger {
+    display: block;
+    display: flex;
+    padding: 10px;
+  }
+
+  .nav-list.active {
+    display: block;
+    right: 0;
+  }
+
+  footer p {
+    padding: 5px;
+  }
+  .footer-link {
+    display: none;
+  }
+}

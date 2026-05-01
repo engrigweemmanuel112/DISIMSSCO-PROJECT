@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   overflow-x: hidden;
 }
@@ -25,10 +24,9 @@ body {
 }
 
 nav {
-  height: auto;
+  height: 100%;
   width: auto;
   background-color: #1c025a;
-  padding-top: 9px;
 }
 
 .hamburger {
@@ -108,7 +106,7 @@ P {
 } */
 
 footer {
-  height: 70px;
+  height: 100%;
   width: 100%;
   background-color: #1c025a;
 }
@@ -136,6 +134,11 @@ footer a {
 }
 .footer-socials a {
   color: rgb(200, 14, 126);
+  margin-left: 10px;
+}
+.footer-socials p {
+  color: yellow;
+  font-size: 10px;
 }
 
 /* Beyond the Classroom Page responsive layout */
@@ -148,9 +151,7 @@ footer a {
     display: none;
     position: absolute;
     right: -100%;
-    top: 50%;
-
-    background: rgba(28, 2, 90, 0.2);
+    top: 55%;
     width: 250;
     height: auto;
     text-align: center;
@@ -175,16 +176,10 @@ footer a {
     right: 0;
   }
 
-  .nav-list li {
-    border-right: none;
-    border-bottom: 2px solid gray;
+  footer p {
+    padding: 5px;
   }
-
-  footer ul {
-    display: flex;
-    padding: 10px;
-  }
-  .footer-socials {
+  .footer-link {
     display: none;
   }
 }
