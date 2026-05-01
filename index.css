@@ -122,6 +122,7 @@ footer a {
 }
 .footer-socials p {
   color: yellow;
+  font-size: 10px;
 }
 
 /* HOME PAGE  RESPONSIVE LAYOUT*/
@@ -137,8 +138,7 @@ footer a {
     display: none;
     position: absolute;
     right: -100%;
-    top: 49%;
-
+    top: 55%;
     /* background: rgba(245, 245, 246, 0.1); */
     width: 250;
     height: auto;
