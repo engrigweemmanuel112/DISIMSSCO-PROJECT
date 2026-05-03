@@ -105,9 +105,9 @@ P {
 .slideshow {
   position: relative;
   width: 100%;
-  max-width: 900px;
-  
-  height: 500px;
+  max-width: 1500px;
+
+  height:500px;
   margin: auto;
   overflow: hidden;
 }
@@ -135,7 +135,7 @@ P {
   bottom: 20px;
   left: 20px;
   color: white;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 10px;
   font-size: 18px;
 }
@@ -192,10 +192,6 @@ P {
 .image:nth-child(6) {
   animation-delay: 15s;
 }
-
-
-
-
 
 footer {
   height: 100%;
