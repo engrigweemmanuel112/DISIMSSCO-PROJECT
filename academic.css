@@ -27,6 +27,7 @@ nav {
   height: 100%;
   width: auto;
   background-color: #1c025a;
+  position:relative;
 }
 
 .hamburger {
@@ -41,6 +42,7 @@ nav {
   margin: 5px 0 5px 0;
   display: flex;
   align-items: center;
+  position:relative;
 }
 
 nav li {
@@ -55,7 +57,7 @@ nav li:last-child {
 
 nav a {
   text-decoration: none;
-  color: rgb(10, 25, 230);
+  color: rgb(252, 194, 4);
 }
 
 header h1,
@@ -158,6 +160,8 @@ footer a {
     padding-bottom: 15px;
   }
 
+ 
+
   .hamburger {
     display: block;
     display: flex;
@@ -169,10 +173,6 @@ footer a {
     right: 0;
   }
 
-  /* .nav-list li {
-    border-right: none;
-    border-bottom: 2px solid gray;
-  } */
   footer p {
     padding: 5px;
   }
