@@ -27,8 +27,7 @@ nav {
   height: 100%;
   width: auto;
   background-color: #1c025a;
-
-  position: relative;
+  position: relative; 
 }
 
 .hamburger {
@@ -43,7 +42,7 @@ nav {
   margin: 5px 0 5px 0;
   display: flex;
   align-items: center;
-  position: relative;
+ 
 }
 
 nav li {
@@ -59,7 +58,6 @@ nav li:last-child {
 nav a {
   text-decoration: none;
   color: rgb(252, 194, 4);
- 
 }
 
 .home-para {
