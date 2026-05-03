@@ -55,7 +55,7 @@ nav li:last-child {
 
 nav a {
   text-decoration: none;
-  color: blanchedalmond;
+  color: rgb(10, 25, 230);
 }
 
 header h1,
@@ -144,8 +144,7 @@ footer a {
     display: none;
     position: absolute;
     right: -100%;
-    top: 55%;
-    /* background: rgba(245, 245, 246, 0.1); */
+    top: 47%;
     width: 250;
     height: auto;
     text-align: center;
