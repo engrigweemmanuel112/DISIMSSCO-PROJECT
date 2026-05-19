@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -84,7 +85,6 @@ P {
 }
 main {
   border: 4px solid gray;
-
 }
 
 .history {
@@ -92,10 +92,19 @@ main {
   color: black;
   font-size: 20px;
   margin: 0 20px;
-
 }
+.history-p {
+  color: black;
+  text-align: justify;
+  line-height: 2;
+ 
+  
+  
+}
+
 main {
   margin-top: 20px;
+ 
 }
 main h1 {
   color: rgb(181, 19, 116);
