@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Quicksand', "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family:
+    "Quicksand", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -60,14 +61,14 @@ nav a {
   color: rgb(252, 194, 4);
 }
 
-.home-para {
+/* .home-para {
   background-color: #0d3e9b;
   color: rgb(220, 185, 10);
   font-size: 20px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
   padding: 10px 0 10px 0;
-}
+} */
 
 header img {
   width: 100%;
@@ -88,11 +89,13 @@ P {
   text-align: center;
 }
 
-main{
+main {
   background-color: #bdd7f5;
+  height: 100%;
 }
 .btc {
   background-color: rgb(64, 74, 170);
+  margin-bottom: 5px;
 }
 .btc h1 {
   text-align: center;
@@ -129,7 +132,7 @@ main{
 .image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* CAPTION */
