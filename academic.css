@@ -92,8 +92,8 @@ main h3 {
   padding: 20px;
 }
 main img {
-  width: 320px;
-  height: 320px;
+  width: 520px;
+  height: auto;
 }
 figure {
   margin-right: 5px;

@@ -264,5 +264,9 @@ footer a {
     border-bottom: 2px solid gray;
   }
 
+  .admin-sec1{
+    display: flex;
+    flex-direction: column;
+  }
   
 }
